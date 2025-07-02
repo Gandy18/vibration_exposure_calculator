@@ -1,0 +1,21 @@
+    <link rel="stylesheet" href="styles.css">
+
+    <h1>Vibration Exposure Calculator</h1>
+    <form id="vibrationForm">
+        <div>
+            <label for="toolA">Tool A (3.0 m/s²):</label>
+            <input type="number" id="toolA" name="toolA" placeholder="Duration (hours)">
+        </div>
+        <div>
+            <label for="toolB">Tool B (4.5 m/s²):</label>
+            <input type="number" id="toolB" name="toolB" placeholder="Duration (hours)">
+        </div>
+        <div>
+            <label for="toolC">Tool C (2.0 m/s²):</label>
+            <input type="number" id="toolC" name="toolC" placeholder="Duration (hours)">
+        </div>
+        <br>
+        <button type="button" onclick="calculateExposure()">Calculate</button>
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
